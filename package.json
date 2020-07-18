@@ -1,0 +1,57 @@
+{
+  "name": "react-pearls-virtual-list",
+  "version": "1.0.0",
+  "description": "React Virtual List Component",
+  "main": "build/react-pearls-virtual-list.cjs.js",
+  "module": "build/react-pearls-virtual-list.es.js",
+  "jsnext:main": "build/react-pearls-virtual-list.es.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "build",
+    "types"
+  ],
+  "scripts": {
+    "build": "babel-node --presets=@babel/preset-env ./config/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinBirkhoff/react-pearls-virtual-list.git"
+  },
+  "keywords": [
+    "react",
+    "react-pearls",
+    "virtual",
+    "list"
+  ],
+  "author": "Gavin Birkhoff <gavinbirkhoff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavinBirkhoff/react-pearls-virtual-list/issues"
+  },
+  "homepage": "https://github.com/GavinBirkhoff/react-pearls-virtual-list#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-typescript": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "fs-extra": "^9.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.22.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
